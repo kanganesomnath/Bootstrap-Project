@@ -1,0 +1,349 @@
+/* Start Navbar */
+
+.navbar
+{
+    background-color:white;
+    padding:5px 0px ;
+}
+.navbar-brand
+{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.nav-item
+{
+    padding: 10px 20px;
+}
+.nav-item:hover
+{
+    background-color:#ff9041;
+    
+}
+
+.nav-item:hover .nav-link
+{
+    color:white;
+
+}
+
+/* End Navbar */
+
+
+/* Start Carousel */
+.bg1 {
+    background: linear-gradient(rgba(17, 0, 79, 0.5), rgba(17, 0, 79, 0.5)),
+                url("images/image 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.bg2
+{
+    background: linear-gradient(rgba(17, 0, 79, 0.5), rgba(17, 0, 79, 0.5)),
+                url("images/image 2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+.bg3
+{
+    background: linear-gradient(rgba(17, 0, 79, 0.5), rgba(17, 0, 79, 0.5)),
+                url("images/image 3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+.mycaption
+{
+   color:white; 
+   position:absolute;
+   width: 40;
+   text-align:center ;
+   left: 50%;
+   top:50%;
+   transform:translate(-50%,-50%);
+   padding: 50px;
+
+}
+@media only screen and (max-width:720px){
+    .mycaption{
+        width:80%;
+    }
+
+}
+.mycaption h1
+{
+   text-align: center;
+   font-size: 50px;
+}
+.mycaption p
+{
+   font-weight: 300; 
+   text-align: center;
+   font-weight: 500;
+
+}
+/* .readmore
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.readmore:hover
+{
+    background-color: white;
+    color:rgb(17,0,79) ;
+} */
+
+.education h1
+{
+   padding-top: 20px;
+   color: black;
+   
+}
+.education p
+{
+    padding-top: 10px;
+    font-size: 18px;
+}
+/* End  Carousel */
+
+
+/* Start About Us */
+section
+{
+    padding:60px 0px;
+}
+.about-us p
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.mainheading
+{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+.mainheading::before
+{
+    content: "";
+    width: 50px;
+    background-color: aqua;
+    height: 2px;
+    margin: 15px;
+    display:inline-block;
+}
+.mainheading::after
+{
+    content: "";
+    width: 50px;
+    background-color: aqua;
+    height: 2px;
+    margin: 15px;
+    display:inline-block;
+}
+.aboutlearnmore
+{
+    color: #ff9041;
+    text-decoration: none;
+    padding:10px 20px;
+    border: 1px solid #ff9041;
+    display:inline-block;
+    margin-top: 20px;
+}
+.aboutlearnmore:hover
+{
+   color: #fff; 
+   background-color: #ff9041;
+   transition:0.5s ;
+}
+/* End About Us */
+
+
+
+/* Start About Cards */
+.mycard
+{
+    padding: 20px ;
+    font-size: 20px;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 30px #cecece;
+    text-align: center;
+    display: inline-block;
+    margin-top:40px ;
+    
+    
+}
+.mycard h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.mycard a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.mycard a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* End About Cards */
+
+/* Start Our Work */
+.card
+{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+}
+.card h3
+{
+   text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.card p
+{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* End our work */
+
+/*Start Our Team */
+.team
+{
+    background-color:#f8f9fa;
+}
+
+
+.teamcard
+{
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.teamcard img
+{
+    border-radius: 5px;
+}
+.teamcard h3
+{
+    text-align: center;
+    margin-top:10px ;
+}
+.teamcard i
+{
+    padding: 10px;
+    font-size: 20px;
+}
+.teamcard i:hover
+{
+    color: #ff9041;
+    cursor:pointer;
+}
+.teamcard:hover
+{
+    box-shadow:0px 0px 30px #cecece;
+}
+
+/*End Our Team */
+
+/* Start FAQ */
+.faq
+{
+    background-color: rgb(255, 255, 255);
+   
+}
+/* End FAQ */
+
+/* Start Contact */
+.contact-us
+{
+    background-color: #11004f;
+    color: white;
+    text-align: center;
+     font-size: 30px;
+
+}
+.contact-us p
+{
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.contact-us i
+{
+    color: #ff9041;
+
+}
+.contact-us h3
+{
+    padding-top: 20px;
+}
+.email
+{
+    font-size: 30px;
+}
+.email i
+{
+    color: #ff9041;
+
+}
+
+/* End Contact Us */
+
+/* Start Donation */
+
+.donation p
+{
+    font-size: 20px;
+    font-weight: 700%;
+}
+.qr-card {
+    width: 300px;
+    margin: auto;
+    background: white;   /* same background like your image */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.qr-img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.qr-info {
+    width: 300px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: left;
+}
+/* End Donation */
